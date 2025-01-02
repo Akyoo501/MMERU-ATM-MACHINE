@@ -94,9 +94,7 @@ int main(){
                }
                 while(isTrue != false);
 
-
         }
-
         else{
             count++;
             if(count == 3)
@@ -106,7 +104,7 @@ int main(){
                 cout<<"Wrong Pin."<<endl<<endl;
         }
     }
-    while(isTrue != false
+    while(isTrue != false);
     
     return 0;
 }
