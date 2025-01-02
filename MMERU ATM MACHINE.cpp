@@ -40,6 +40,15 @@ int main(){
             cin>>choice;
 
             cout<<endl;
+
+                    switch(choice){
+            case 1:
+                cout<<"Enter amount for Deposit: $";
+                cin>>diposit;
+                balance = balance + diposit;
+                cout<<endl;
+                cout<<"Successfully Amount Deposited."<<endl<<endl;
+                break;
     
     return 0;
 }
