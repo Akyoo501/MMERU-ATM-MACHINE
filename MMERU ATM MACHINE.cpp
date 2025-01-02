@@ -6,6 +6,7 @@ using namespace std;
 int main(){
     int p;
     int pin = 1243;
+    // double is the variable that use to hold decimal number 
     double diposit = 0.0;
     double balance = 0.0;
     double withdraw = 0.0;
