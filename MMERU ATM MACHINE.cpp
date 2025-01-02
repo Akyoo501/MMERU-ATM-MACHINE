@@ -26,6 +26,20 @@ int main(){
 
         if(p == pin){
                 do{
+
+                    cout<<"   "<<"     Account Dashboard    "<<endl;
+            cout<<"   "<<"| ----------------------- |"<<endl;
+            cout<<"   "<<"| 1.Deposit Your Money    |" <<endl;
+            cout<<"   "<<"| 2.Check Your Balance    |" <<endl;
+            cout<<"   "<<"| 3.Withdraw Your Money   |" <<endl;
+            cout<<"   "<<"| 4.Change Your Pin       |" <<endl;
+            cout<<"   "<<"| 5.Log out               |" <<endl;
+            cout<<"   "<<"| ----------------------- |"<<endl<<endl;
+
+            cout<<"Enter Your Choice: ";
+            cin>>choice;
+
+            cout<<endl;
     
     return 0;
 }
