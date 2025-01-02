@@ -2,6 +2,7 @@
 #include <cstdlib>
 using namespace std;
 
+// This are some variables that I use on my ATM Machine 
 int main(){
     int p;
     int pin = 1243;
