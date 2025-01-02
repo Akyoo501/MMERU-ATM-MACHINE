@@ -49,6 +49,10 @@ int main(){
                 cout<<endl;
                 cout<<"Successfully Amount Deposited."<<endl<<endl;
                 break;
+
+            case 2:
+                cout<<"Your Balance is: $"<<balance<<endl<<endl;
+                break;
     
     return 0;
 }
