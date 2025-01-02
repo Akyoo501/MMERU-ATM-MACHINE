@@ -81,6 +81,11 @@ int main(){
                     cout<<"Sorry Pin does not match. Please try again."<<endl<<endl;
                 }
                 break;
+
+            case 5:
+                cout<<"Your have been Logout to your account. Welcome again!!!"<<endl<<endl;
+                isTrue = false;
+                break;
     
     return 0;
 }
