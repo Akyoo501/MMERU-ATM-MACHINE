@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(){
-    int main(){
     int p;
     int pin = 1243;
     int diposit = 0.0;
