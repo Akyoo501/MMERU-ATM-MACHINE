@@ -100,7 +100,7 @@ int main(){
         }
         else{
             count++;
-            if(count == 3)
+            if(count == 3) // This used to block account if user enter wrong pin in three times 
                 isTrue = false;
 
             else
