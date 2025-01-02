@@ -96,6 +96,17 @@ int main(){
 
 
         }
+
+        else{
+            count++;
+            if(count == 3)
+                isTrue = false;
+
+            else
+                cout<<"Wrong Pin."<<endl<<endl;
+        }
+    }
+    while(isTrue != false
     
     return 0;
 }
