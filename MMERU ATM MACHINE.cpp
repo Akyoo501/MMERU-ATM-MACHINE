@@ -62,7 +62,7 @@ int main(){
                 cin>>withdraw;
                 cout<<endl;
                 balance = balance - withdraw;
-                if(withdraw>balance){
+                if(withdraw>balance){ // Check if withdraw amount it's high than balance amount 
                     cout<<"Sorry!!! You have sufficient amount to withdraw."<<endl;
                     cout<<"Please check your balance and try again."<<endl<<endl;
                 }
