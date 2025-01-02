@@ -67,6 +67,20 @@ int main(){
                 cout<<"Successfully Amount withdraw."<<endl<<endl;
                 }
                 break;
+
+            case 4:
+                cout<<"Please enter your previous pin: ";
+                cin>>pin;
+                cout<<endl;
+                if(p == pin){
+                cout<<"Enter New Pin:";
+                cin>>p;
+                cout<<"Pin successfully changed."<<endl<<endl;
+                }
+                else{
+                    cout<<"Sorry Pin does not match. Please try again."<<endl<<endl;
+                }
+                break;
     
     return 0;
 }
