@@ -53,6 +53,20 @@ int main(){
             case 2:
                 cout<<"Your Balance is: $"<<balance<<endl<<endl;
                 break;
+
+            case 3:
+                cout<<"Enter amount to withdraw: $";
+                cin>>withdraw;
+                cout<<endl;
+                balance = balance - withdraw;
+                if(withdraw>balance){
+                    cout<<"Sorry!!! You have sufficient amount to withdraw."<<endl;
+                    cout<<"Please check your balance and try again."<<endl<<endl;
+                }
+                else{
+                cout<<"Successfully Amount withdraw."<<endl<<endl;
+                }
+                break;
     
     return 0;
 }
